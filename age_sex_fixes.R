@@ -88,7 +88,7 @@ missing_sex <- missing_sex[
 ]
 
 
-# 2.4 Assign possible sex based on the first name -------------------------
+# 2.1 Assign possible sex based on the first name -------------------------
 # Can take some 5 to 10 mins
 
 for (i in 1:nrow(missing_sex)) {
@@ -98,11 +98,11 @@ for (i in 1:nrow(missing_sex)) {
          missing_sex[i, 28] <- 'Unknown'
   )
   cat("\r",i,' ', missing_sex[i, 4], genderi,'   ')
-}; beepr::beep()
+}
 
 colnames(missing_sex)[28] <- 'most_probable_sex'
 
-# Checking
+# Manual random check
 
 missing_sex[
   round(runif(1, 1, nrow(missing_sex))), c(2, 27, 28)
