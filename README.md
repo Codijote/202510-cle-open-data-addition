@@ -1,6 +1,8 @@
 # 202510-cle-open-data-addition
 Some fixes to the data
 
+Correction proposition to the mismatch between the birthdate and burialdate and the ages, and completion of some missing sex following the names, Johns are males, Marys are females.
+
 This code follows the data analysis started by Alec Wong of Cleveland data laundry available at: https://github.com/awong234/data-laundry/tree/main/datasets/202510-cle-open-data.
 
 Needed packages:
