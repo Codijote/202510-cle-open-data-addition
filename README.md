@@ -15,3 +15,7 @@ Needed packages:
     stringr,
 
 Todo: A routine to sample the final result and provide the proportion of correct sex assigned would be interesting here.
+
+For the gender package and function please check:
+   Lincoln Mullen (2021). gender: Predict Gender from Names Using
+   Historical Data. R package version 0.6.0.
